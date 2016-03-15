@@ -7,6 +7,6 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^image/(?P<width>[0-9]+)x(?P<height>[0-9]+)/$', placeholder, 
-        name = 'placeholder'),
+    #url(r'^image/(?P<width>[0-9]+)x(?P<height>[0-9]+)/$', placeholder, 
+     #   name = 'placeholder'),
 )
