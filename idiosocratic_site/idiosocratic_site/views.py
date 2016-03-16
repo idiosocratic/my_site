@@ -1,7 +1,7 @@
 import os
 
 from django.conf import settings
-from django.http import Http404
+from django.http import Http404, HttpResponse
 from django.shortcuts import render
 from django.template import Template
 from django.utils._os import safe_join
