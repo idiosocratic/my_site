@@ -20,6 +20,9 @@ def get_page_or_404(name):
     page = Template(f.read())
     
   return page        
+  
+def home(request):
+  return HttpResponse('Welcome to my site!')
      
   
 
